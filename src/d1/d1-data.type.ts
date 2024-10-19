@@ -1,0 +1,1 @@
+export type D1Data = [number];

@@ -1,0 +1,1 @@
+export type TD3Data = [number, number, number];
