@@ -1,13 +1,14 @@
 {
   "name": "@bra2/dimensions",
   "version": "1.0.0",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": "git@github.com:abbratu/bra2.dimensions.git",
   "author": "abbratu <abbratu@hotmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "npx tsc",
-    "dev": "nodemon src/index.ts",
+    "build": "tsc",
+    "dev": "nodemon",
     "clean": "rimraf dist",
     "test": "jest --coverage"
   },
@@ -20,7 +21,6 @@
     "nodemon": "^3.1.7",
     "rimraf": "^6.0.1",
     "ts-jest": "^29.2.5",
-    "ts-node": "^10.9.2",
     "typescript": "^5.6.3"
   }
 }
