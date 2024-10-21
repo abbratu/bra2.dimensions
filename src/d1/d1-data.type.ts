@@ -1,1 +1,1 @@
-export type D1Data = [number];
+export type TD1Data = [number];
