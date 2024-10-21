@@ -34,6 +34,16 @@ describe('Test 1D Vector', () => {
         expect(result).toEqual(1);
     });
 
+    test ('Scale', () => {
+        const result = CD1Vector.scale([1], 2);
+        expect(result).toEqual([2]);
+    });
+
+    test('DistanceTo', () => {
+        const result = CD1Vector.distanceTo([1], [2]);
+        expect(result).toEqual(1);
+    })
+
     test('Scalar', () => {
         const result = CD1Vector.scalar([1], [2]);
         expect(result).toEqual([1]);
