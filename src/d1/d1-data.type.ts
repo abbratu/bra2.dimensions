@@ -1,1 +1,0 @@
-export type TD1Data = [number];
